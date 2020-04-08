@@ -3,20 +3,13 @@
 def fizzbuzz
 end
 
-def fizzbuzz(int)
-  if int % 3 ==0
-    "Fizz"
-  end
-end
-
-def fizzbuzz(int)
-  if int % 5 ==0
-    "Buzz"
-  end
-end
 
 def fizzbuzz(int)
   if int % 3 == 0 and int % 5 ==0
     "FizzBuzz"
+  elsif int % 5 ==0
+    "Buzz"
+  elsif int % 3 ==0
+    "Fuzz"
   end
 end
