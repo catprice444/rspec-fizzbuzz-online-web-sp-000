@@ -2,3 +2,14 @@
 # See README.md for instructions on how to do this
 def fizzbuzz
 end
+
+if i % 5 == 0 and i % 3 == 0
+  puts "Fizzbuzz"
+elsif i % 5 == 0
+  puts "Buzz"
+elsif i % 3 == 0
+  puts "Fizz"
+else 
+  puts "nil"
+end
+  
