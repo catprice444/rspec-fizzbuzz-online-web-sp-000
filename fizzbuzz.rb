@@ -8,7 +8,6 @@ if fizzbuzz_15 == 0
 elsif fizzbuzz_5 ==0
   puts "Buzz"
 elsif fizzbuzz_3 ==0
-
   puts "Fizz"
 else
   puts "nil"
