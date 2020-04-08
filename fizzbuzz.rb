@@ -3,4 +3,4 @@
 def fizzbuzz(x)
 end
 
-fizzbuzz(3)=="Fizz"
+fizzbuzz(3) = "Fizz"
