@@ -3,8 +3,6 @@
 def fizzbuzz
 end
 
-if fizzbuzz % 3 == 0
+if fizzbuzz%3
   puts "Fizz"
-elsif fizzbuzz % 5 == 0
-  puts "Buzz"
 end
