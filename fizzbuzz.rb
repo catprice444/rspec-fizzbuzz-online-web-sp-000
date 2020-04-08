@@ -3,6 +3,7 @@
 def fizzbuzz
 end
 
+upto(100) do |i|
 if i % 5 == 0 and i % 3 == 0
   puts "Fizzbuzz"
 elsif i % 5 == 0
@@ -12,4 +13,3 @@ elsif i % 3 == 0
 else
   puts "nil"
 end
-  
