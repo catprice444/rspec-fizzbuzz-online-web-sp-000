@@ -3,8 +3,8 @@
 def fizzbuzz(x)
 end
 
-if fizzbuzz(3)
+if fizzbuzz == 3
   puts "Fizz"
-elsif fizzbuzz(5)
+elsif fizzbuzz == 5
   puts "Buzz"
 end
