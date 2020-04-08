@@ -3,11 +3,12 @@
 def fizzbuzz
 end
 
-if fizz_15 = fizzbuzz(15)
+if fizzbuzz_15 == 0
   puts "Fizzbuzz"
-elsif fizz_5 = fizzbuzz(5)
+elsif fizzbuzz_5 ==0
   puts "Buzz"
-elsif fizz_3 = fizzbuzz(3)
+elsif fizzbuzz_3 ==0
+
   puts "Fizz"
 else
   puts "nil"
