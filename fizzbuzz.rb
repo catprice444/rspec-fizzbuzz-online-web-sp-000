@@ -3,11 +3,11 @@
 def fizzbuzz
 end
 
-if i % 5 == 0 and i % 3 == 0
+if fizzbuzz % 5 == 0 and i % 3 == 0
   puts "Fizzbuzz"
-elsif i % 5 == 0
+elsif fizzbuzz % 5 == 0
   puts "Buzz"
-elsif i % 3 == 0
+elsif fizzbuzz % 3 == 0
   puts "Fizz"
 else
   puts "nil"
