@@ -4,4 +4,3 @@ def fizzbuzz
 end
 
 fizzbuzz(3)=="Fizz"
-
