@@ -2,3 +2,9 @@
 # See README.md for instructions on how to do this
 def fizzbuzz
 end
+
+if fizzbuzz(3)
+  puts "Fizz"
+elsif fizzbuzz(5)
+  puts "Buzz"
+end
