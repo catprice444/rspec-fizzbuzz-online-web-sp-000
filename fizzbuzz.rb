@@ -3,12 +3,8 @@
 def fizzbuzz
 end
 
-if fizzbuzz % 5 == 0 and fizzbuzz % 3 == 0
-        puts "FizzBuzz"
-  elsif fizzbuzz % 5 == 0
-        puts "Buzz"
-  elsif fizzbuzz % 3 == 0
-        puts "Fizz"
-  else
-        puts "nil"
+def fizzbuzz(int)
+  if int % 3 == 0 # if the number int is divisible by 3
+    "Fizz" # Go fizz
+  end
 end
