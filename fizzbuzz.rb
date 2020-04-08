@@ -3,12 +3,14 @@
 def fizzbuzz
 end
 
-if fizzbuzz_15 == 0
-  puts "Fizzbuzz"
-elsif fizzbuzz_5 ==0
-  puts "Buzz"
-elsif fizzbuzz_3 ==0
-  puts "Fizz"
-else
-  puts "nil"
-end
+upto(100) do |i|
+      if i % 5 == 0 and i % 3 == 0
+        puts "FizzBuzz"
+      elsif i % 5 == 0
+        puts "Buzz"
+      elsif i % 3 == 0
+        puts "Fizz"
+      else
+        puts i
+      end
+    end
